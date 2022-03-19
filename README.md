@@ -10,4 +10,4 @@ docker build -t test/aspnetmvcminimal .
 docker run -d -p 8080:80 test/aspnetmvcminimal
 
 # Start the docker with a mapped volume
-docker run -d -p 8080:80 -v D:\Wip\Practices\OpenSource\aspnetmvc5-minimal\Dockers\TEST-ENV:C:\EnvConfig test/aspnetmvcminimal
+docker run -d -p 8080:80 -v D:\Wip\Practices\OpenSource\aspnetmvc5-minimal\Dockers\TEST-ENV:C:\EnvConfig test/aspnetmvcminimal s
